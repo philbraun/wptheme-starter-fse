@@ -49,8 +49,8 @@ input[type="search"] {
 
 h1,
 .h1 {
-	font-size: var(--wp--custom--typography--font-size--colossal);
-	line-height: var(--wp--custom--typography--line-height--page-title);
+	// font-size: var(--wp--custom--typography--font-size--huge);
+	// line-height: var(--wp--custom--typography--line-height--page-title);
 }
 
 
@@ -140,6 +140,10 @@ main {
 			padding-left: $spacing-horizontal;
 			padding-right: $spacing-horizontal;
 		}
+	}
+	
+	.wp-block-post-title > a {
+		text-decoration: none;
 	}
 }
 

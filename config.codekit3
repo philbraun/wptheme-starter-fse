@@ -60,28 +60,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/assets\/fonts\/d-din-bold-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/d-din-bold-webfont.woff",
-      "oF" : 0
-    },
     "\/assets\/fonts\/d-din-bold-webfont.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/d-din-bold-webfont.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/d-din-italic-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/d-din-italic-webfont.woff",
       "oF" : 0
     },
     "\/assets\/fonts\/d-din-italic-webfont.woff2" : {
@@ -92,14 +76,6 @@
       "oAP" : "\/assets\/fonts\/d-din-italic-webfont.woff2",
       "oF" : 0
     },
-    "\/assets\/fonts\/d-din-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/d-din-webfont.woff",
-      "oF" : 0
-    },
     "\/assets\/fonts\/d-din-webfont.woff2" : {
       "cB" : 0,
       "ft" : 8192,
@@ -108,12 +84,100 @@
       "oAP" : "\/assets\/fonts\/d-din-webfont.woff2",
       "oF" : 0
     },
-    "\/assets\/fonts\/merriweather-v30-latin-700.woff" : {
+    "\/assets\/fonts\/dm-sans-v11-latin-700.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/fonts\/merriweather-v30-latin-700.woff",
+      "oAP" : "\/assets\/fonts\/dm-sans-v11-latin-700.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/dm-sans-v11-latin-700italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/dm-sans-v11-latin-700italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/dm-sans-v11-latin-italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/dm-sans-v11-latin-italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/dm-sans-v11-latin-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/dm-sans-v11-latin-regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-300.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-300.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-300italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-300italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-700.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-700.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-700italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-700italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-900.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-900.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-900italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-900italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/lato-v23-latin-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/lato-v23-latin-regular.woff2",
       "oF" : 0
     },
     "\/assets\/fonts\/merriweather-v30-latin-700.woff2" : {
@@ -124,14 +188,6 @@
       "oAP" : "\/assets\/fonts\/merriweather-v30-latin-700.woff2",
       "oF" : 0
     },
-    "\/assets\/fonts\/merriweather-v30-latin-italic.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/merriweather-v30-latin-italic.woff",
-      "oF" : 0
-    },
     "\/assets\/fonts\/merriweather-v30-latin-italic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
@@ -140,20 +196,108 @@
       "oAP" : "\/assets\/fonts\/merriweather-v30-latin-italic.woff2",
       "oF" : 0
     },
-    "\/assets\/fonts\/merriweather-v30-latin-regular.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/merriweather-v30-latin-regular.woff",
-      "oF" : 0
-    },
     "\/assets\/fonts\/merriweather-v30-latin-regular.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/merriweather-v30-latin-regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-slab-v23-latin-200.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-slab-v23-latin-200.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-slab-v23-latin-700.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-slab-v23-latin-700.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-slab-v23-latin-900.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-slab-v23-latin-900.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-slab-v23-latin-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-slab-v23-latin-regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-300.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-300.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-300italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-300italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-700.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-700.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-700italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-700italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-900.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-900.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-900italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-900italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/roboto-v30-latin-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/roboto-v30-latin-regular.woff2",
       "oF" : 0
     },
     "\/assets\/main.js" : {
@@ -411,7 +555,7 @@
     },
     "\/screenshot.png" : {
       "ft" : 32768,
-      "iS" : 8836,
+      "iS" : 451515,
       "oA" : 1,
       "oAP" : "\/screenshot.png",
       "oF" : 0,
@@ -443,6 +587,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/style-editor-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/style-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
