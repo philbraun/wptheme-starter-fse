@@ -62,33 +62,33 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#5D4B54",
-					"name": "Main Pink"
+					"color": "#9c170c",
+					"name": "Totem Pole"
 				},
 				{
 					"slug": "secondary",
-					"color": "#4C3843",
-					"name": "Dark Pink"
+					"color": "#c8ac6d",
+					"name": "Laser"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#E3EAD2",
-					"name": "Green"
+					"color": "#451c05",
+					"name": "Dark Ebony"
 				},
 				{
 					"slug": "quaternary",
-					"color": "#EEE7CF",
-					"name": "Yellow"
+					"color": "#dea22c",
+					"name": "Golden Grass"
 				},
 				{
 					"slug": "quinary",
-					"color": "#EFEADF",
-					"name": "Orange"
+					"color": "#d08975",
+					"name": "NY Pink"
 				},
 				{
 					"slug": "senary",
-					"color": "#EBE1DB",
-					"name": "Light Pink"
+					"color": "#c3daee",
+					"name": "Spindle"
 				},
 				
 				{
