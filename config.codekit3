@@ -17,6 +17,18 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/assets\/dist\/block-variations-columns.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/block-variations-columns-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/dist\/main.bundle.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -57,6 +69,42 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/dist\/rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/dist\/showhidenav.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/showhidenav-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/dist\/stickynav.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/stickynav-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/dist\/template-parts-variations-header.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/template-parts-variations-header-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -326,12 +374,142 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scripts\/block-variations-columns.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/block-variations-columns-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/scripts\/template-parts-variations-header.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/template-parts-variations-header-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/scss\/block-variations-columns.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/block-variations-columns.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/showhidenav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/showhidenav.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/stickynav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/stickynav.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/template-part-variations-header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dist\/template-parts-variations-header.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/functions-output.php",
+      "oF" : 0
+    },
+    "\/includes\/acf.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/acf-output.php",
+      "oF" : 0
+    },
+    "\/includes\/enqueues.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/enqueues-output.php",
+      "oF" : 0
+    },
+    "\/includes\/gf.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/gf-output.php",
+      "oF" : 0
+    },
+    "\/includes\/templates.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/templates-output.php",
+      "oF" : 0
+    },
+    "\/includes\/variations.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/variations-output.php",
+      "oF" : 0
+    },
+    "\/includes\/wpgb.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/wpgb-output.php",
       "oF" : 0
     },
     "\/index.php" : {
@@ -404,6 +582,62 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/query.html",
+      "oF" : 0
+    },
+    "\/patterns\/error-404.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/error-404-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/footer-1.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/footer-1-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/footer-2.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/footer-2-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/footer-3.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/footer-3-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/gallery-1.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/gallery-1-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/hero-1.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/hero-1-output.php",
+      "oF" : 0
+    },
+    "\/patterns\/text-1.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/patterns\/text-1-output.php",
       "oF" : 0
     },
     "\/README.md" : {
@@ -585,21 +819,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/style-editor-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/style-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/style-min-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/style.css" : {
@@ -609,9 +831,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/style-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/templates\/404.html" : {
@@ -727,7 +949,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 676800646.60636103,
-    "displayValue" : "Starter Block Theme",
+    "displayValue" : "Philby Starter Theme",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-brick",
     "iconImageWasSetByUser" : 0

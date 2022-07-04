@@ -2,10 +2,44 @@
 /**
  * Theme Setup.
  */
-if ( ! function_exists( 'themes_starter_theme_support' ) ) {
-	function themes_starter_theme_support() {
+
+// Get theme Path directory
+if ( !defined( 'SBT_THEME_PATH' ) ) {
+	define( 'SBT_THEME_PATH', get_template_directory( __FILE__ ) );
+}
+if ( !defined( 'SBT_THEME_URI' ) ) {
+	define( 'SBT_THEME_URI', get_template_directory( __FILE__ ) );
+}
+
+// Load template functions.
+include_once( SBT_THEME_PATH . '/includes/templates.php' );
+
+// Load block variations.
+include_once( SBT_THEME_PATH . '/includes/variations.php' );
+
+// Enqueue stuff.
+include_once( SBT_THEME_PATH . '/includes/enqueues.php' );
+
+// Load ACF functions.
+if( class_exists('ACF') ) :
+	include_once( SBT_THEME_PATH . '/includes/acf.php' );
+endif;
+
+// Load Gravity Forms functions.
+if ( class_exists( 'GFCommon' ) ) :
+	include_once( SBT_THEME_PATH . '/includes/gf.php' );
+endif;
+
+// Load WP GridBuilder functions.
+//if ( class_exists( 'GFCommon' ) ) :
+	include_once( SBT_THEME_PATH . '/includes/wpgb.php' );
+//endif;
+
+
+if ( ! function_exists( 'starter_block_theme_support' ) ) {
+	function starter_block_theme_support() {
 		// Make theme available for translation: Translations can be filed in the /languages/ directory.
-		load_theme_textdomain( 'my-theme', __DIR__ . '/languages' );
+		load_theme_textdomain( 'starter-block-theme', __DIR__ . '/languages' );
 
 		// Add support for post thumbnails.
 		add_theme_support( 'post-thumbnails' );
@@ -19,7 +53,7 @@ if ( ! function_exists( 'themes_starter_theme_support' ) ) {
 		// Enqueue editor styles.
 		add_editor_style( 'style-editor.css' );
 	}
-	add_action( 'after_setup_theme', 'themes_starter_theme_support' );
+	add_action( 'after_setup_theme', 'starter_block_theme_support' );
 
 	// Disable Block Directory: https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/filters/editor-filters.md#block-directory
 	remove_action( 'enqueue_block_editor_assets', 'wp_enqueue_editor_block_directory_assets' );
@@ -27,40 +61,6 @@ if ( ! function_exists( 'themes_starter_theme_support' ) ) {
 }
 
 /**
- * Custom Template part.
+ * Include stuff
  */
-function themes_starter_custom_template_part_area( $areas ) {
-	array_push(
-		$areas,
-		array(
-			'area'        => 'query',
-			'label'       => esc_html__( 'Query', 'my-theme' ),
-			'description' => esc_html__( 'Custom query area', 'my-theme' ),
-			'icon'        => 'layout',
-			'area_tag'    => 'div',
-		)
-	);
-	return $areas;
-}
-add_filter( 'default_wp_template_part_areas', 'themes_starter_custom_template_part_area' );
 
-/**
- * Enqueue frontend assets.
- */
-if ( ! function_exists( 'themes_starter_load_scripts' ) ) {
-	function themes_starter_load_scripts() {
-		$theme_version = wp_get_theme()->get( 'Version' );
-
-		// 1. Styles.
-		wp_enqueue_style( 'style', get_stylesheet_uri(), array(), $theme_version );
-		wp_enqueue_style( 'main', get_theme_file_uri( 'assets/dist/main.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled custom styles.
-
-		if ( is_rtl() ) {
-			wp_enqueue_style( 'rtl', get_theme_file_uri( 'assets/dist/rtl.css' ), array(), $theme_version, 'all' );
-		}
-
-		// 2. Scripts.
-		wp_enqueue_script( 'mainjs', get_theme_file_uri( 'assets/dist/main.bundle.js' ), array(), $theme_version, true );
-	}
-	add_action( 'wp_enqueue_scripts', 'themes_starter_load_scripts' );
-}

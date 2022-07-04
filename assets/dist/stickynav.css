@@ -1,0 +1,11 @@
+header.site-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 6rem;
+}
+
+div.wp-site-blocks {
+  padding-top: calc(6rem + 2 * var(--wp--custom--spacing--vertical));
+}
