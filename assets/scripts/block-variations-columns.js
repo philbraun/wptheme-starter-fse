@@ -12,7 +12,7 @@ window.addEventListener('load', function () {
 	const el = wp.element.createElement;
 	const SVG = wp.primitives.SVG;
 
-	const iconColumnsOneFull = el(
+	const icon_100 = el(
 		SVG,
 		{ width: 48, height: 48, viewBox: '0 0 48 48' },
 		el('path', {
@@ -23,7 +23,7 @@ window.addEventListener('load', function () {
 		})
 	);
 
-	const iconColumnsTwoEqual = el(
+	const icon_50_50 = el(
 		SVG,
 		{ width: 48, height: 48, viewBox: '0 0 48 48' },
 		el('path', {
@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
 		})
 	);
 
-	const iconColumnsThreeEqual = el(
+	const icon_33_33_33 = el(
 		SVG,
 		{ width: 48, height: 48, viewBox: '0 0 48 48' },
 		el('path', {
@@ -45,7 +45,7 @@ window.addEventListener('load', function () {
 		})
 	);
 
-	const iconColumnsTwoThirdsOneThird = el(
+	const icon_66_33 = el(
 		SVG,
 		{ width: 48, height: 48, viewBox: '0 0 48 48' },
 		el('path', {
@@ -56,7 +56,7 @@ window.addEventListener('load', function () {
 		})
 	);
 
-	const iconColumnsOneThirdTwoThirds = el(
+	const icon_33_66 = el(
 		SVG,
 		{ width: 48, height: 48, viewBox: '0 0 48 48' },
 		el('path', {
@@ -67,6 +67,73 @@ window.addEventListener('load', function () {
 		})
 	);
 
+	const icon_25_50_25 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM15.159,14.011L9.074,14.011L9.074,34.027L15.159,34.027L15.159,14.011ZM17.004,14.011L17.004,34.027L31.024,34.027L31.024,14.011L17.004,14.011ZM32.869,14.011L32.869,34.027L38.978,34.027L38.978,14.011L32.869,14.011Z',
+		})
+	);
+
+	const icon_50_25_25 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM23.077,14.011L9.074,14.011L9.074,34.027L23.077,34.027L23.077,14.011ZM24.923,14.011L24.923,34.027L31.024,34.027L31.024,14.011L24.923,14.011ZM32.869,14.011L32.869,34.027L38.978,34.027L38.978,14.011L32.869,14.011Z',
+		})
+	);
+
+	const icon_25_25_50 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM15.159,14.011L9.074,14.011L9.074,34.027L15.159,34.027L15.159,14.011ZM17.004,14.011L17.004,34.027L23.077,34.027L23.077,14.011L17.004,14.011ZM24.923,14.011L24.923,34.027L38.978,34.027L38.978,14.011L24.923,14.011Z',
+		})
+	);
+
+	const icon_25_75 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM15.15,14.011L9.074,14.011L9.074,34.027L15.15,34.027L15.15,14.011ZM16.995,14.011L16.995,34.027L38.978,34.027L38.978,14.011L16.995,14.011Z',
+		})
+	);
+
+	const icon_75_25 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM31.028,14.011L9.074,14.011L9.074,34.027L31.028,34.027L31.028,14.011ZM32.873,14.011L32.873,34.027L38.978,34.027L38.978,14.011L32.873,14.011Z',
+		})
+	);
+
+	
+	const icon_25_25_25_25 = el(
+		SVG,
+		{ width: 48, height: 48, viewBox: '0 0 48 48' },
+		el('path', {
+			fillRule: 'evenodd',
+			clipRule: 'evenodd',
+			d:
+			'M41,13.8C41,12.807 40.193,12 39.2,12L8.8,12C7.807,12 7,12.807 7,13.8L7,34.2C7,35.193 7.807,36 8.8,36L39.2,36C40.193,36 41,35.193 41,34.2L41,13.8ZM15.159,14.011L9.074,14.011L9.074,34.027L15.159,34.027L15.159,14.011ZM17.004,14.011L17.004,34.027L23.077,34.027L23.077,14.011L17.004,14.011ZM24.923,14.011L24.923,34.027L31.024,34.027L31.024,14.011L24.923,14.011ZM32.869,14.011L32.869,34.027L38.978,34.027L38.978,14.011L32.869,14.011Z',
+		})
+	);
+
 	/* Register custom pattern. */
 	wp.blocks.registerBlockVariation( 'core/columns', {
 		name: 'column-100',
@@ -74,7 +141,7 @@ window.addEventListener('load', function () {
 			className: 'column-100',
 		},
 		title: '100',
-		icon: iconColumnsOneFull,
+		icon: icon_100,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-100' } ],
 		],
@@ -87,7 +154,7 @@ window.addEventListener('load', function () {
 			className: 'columns-50-50',
 		},
 		title: '50 / 50',
-		icon: iconColumnsTwoEqual,
+		icon: icon_50_50,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-50', width: '50%' } ],
 			[ 'core/column', { className: 'is-50', width: '50%' } ],
@@ -101,7 +168,7 @@ window.addEventListener('load', function () {
 			className: 'columns-66-33',
 		},
 		title: '66 / 33',
-		icon: iconColumnsTwoThirdsOneThird,
+		icon: icon_66_33,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-66', width: '66.66%' } ],
 			[ 'core/column', { className: 'is-33', width: '33.33%' } ],
@@ -115,7 +182,7 @@ window.addEventListener('load', function () {
 			className: 'columns-33-66',
 		},
 		title: '33 / 66',
-		icon: iconColumnsOneThirdTwoThirds,
+		icon: icon_33_66,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-33', width: '33.33%' } ],
 			[ 'core/column', { className: 'is-66', width: '66.66%' } ],
@@ -129,7 +196,7 @@ window.addEventListener('load', function () {
 			className: 'columns-33-33-33',
 		},
 		title: '33 / 33 / 33',
-		icon: iconColumnsThreeEqual,
+		icon: icon_33_33_33,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-33', width: '33.33%' } ],
 			[ 'core/column', { className: 'is-33', width: '33.33%' } ],
@@ -144,7 +211,7 @@ window.addEventListener('load', function () {
 			className: 'columns-50-25-25',
 		},
 		title: '50 / 25 / 25',
-		icon: iconColumnsTwoThirdsOneThird,
+		icon: icon_50_25_25,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-50', width: '50%' } ],
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
@@ -159,7 +226,7 @@ window.addEventListener('load', function () {
 			className: 'columns-25-25-50',
 		},
 		title: '25 / 25 / 50',
-		icon: iconColumnsOneThirdTwoThirds,
+		icon: icon_25_25_50,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
@@ -174,7 +241,7 @@ window.addEventListener('load', function () {
 			className: 'columns-25-50-25',
 		},
 		title: '25 / 50 / 25',
-		icon: iconColumnsOneThirdTwoThirds,
+		icon: icon_25_50_25,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
 			[ 'core/column', { className: 'is-50', width: '50%' } ],
@@ -189,7 +256,7 @@ window.addEventListener('load', function () {
 			className: 'columns-75-25',
 		},
 		title: '75 / 25',
-		icon: iconColumnsTwoThirdsOneThird,
+		icon: icon_75_25,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-75', width: '75%' } ],
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
@@ -203,7 +270,7 @@ window.addEventListener('load', function () {
 			className: 'columns-25-75',
 		},
 		title: '25 / 75',
-		icon: iconColumnsOneThirdTwoThirds,
+		icon: icon_25_75,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
 			[ 'core/column', { className: 'is-75', width: '75%' } ],
@@ -218,7 +285,7 @@ window.addEventListener('load', function () {
 			className: 'columns-25-25-25-25',
 		},
 		title: '25-25-25-25',
-		icon: iconColumnsThreeEqual,
+		icon: icon_25_25_25_25,
 		innerBlocks: [
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
 			[ 'core/column', { className: 'is-25', width: '25%' } ],
