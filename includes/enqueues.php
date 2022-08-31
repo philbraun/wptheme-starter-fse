@@ -28,7 +28,7 @@ if ( ! function_exists( 'starter_block_theme_load_scripts' ) ) {
 		wp_enqueue_script( 'mainjs', get_theme_file_uri( 'assets/dist/main.bundle.js' ), array(), $theme_version, true );
 		
 		// 3. ACF Variations
-		$stickynav = get_field('sbt_sticky_header', 'option');
+		$stickynav = get_option('sbt_sticky_header');
 		if ( $stickynav == 'sticky' ) :
 			wp_enqueue_style( 'stickynav', get_theme_file_uri( 'assets/dist/stickynav.css' ), array(), $theme_version, 'all' );
 		elseif ( $stickynav == 'showhide' ) :
